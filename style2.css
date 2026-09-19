@@ -276,6 +276,10 @@ p {
     }
 }
 
+.mars p {
+    margin-left: -10px;
+}
+
 .neptune {
     position: absolute;
     width: 140px;
