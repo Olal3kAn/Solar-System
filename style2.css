@@ -21,10 +21,9 @@ body {
 }
 
 h2 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 550px;
     color: white;
-    cursor: pointer;
 }
 
 .rotating-circle {
@@ -96,7 +95,7 @@ p {
 }
 
 .mercury img:hover {
-    animation: planetHeartbeat 0.9s ease-in-out;
+    animation: planetHeartbeat 0.9s infinite ease-in-out;
 }
 
 @keyframes planetHeartbeat {
@@ -318,7 +317,6 @@ p {
     position: absolute;
     width: 180px;
     left: -220px;
-    /* bottom: 10px; */
 }
 
 .jupiter img:hover {
