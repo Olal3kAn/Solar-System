@@ -17,6 +17,14 @@ body {
 
 .planet {
     cursor: pointer;
+    margin-top: -35px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 550px;
+    color: white;
+    cursor: pointer;
 }
 
 .rotating-circle {
@@ -160,7 +168,7 @@ p {
 .earth {
     position: absolute;
     width: 120px;
-    left: 210px;
+    left: 270px;
     bottom: 20px;
     /* transform: translate(-50%, -50%); */
 }
@@ -236,7 +244,7 @@ p {
     position: absolute;
     width: 80px;
     left: -200px;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .mars img:hover {
@@ -310,6 +318,7 @@ p {
     position: absolute;
     width: 180px;
     left: -220px;
+    /* bottom: 10px; */
 }
 
 .jupiter img:hover {
